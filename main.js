@@ -1,3 +1,4 @@
-const webUrl = require("./module/myModule");
+const {sum, subtract, multiply, divide} = require('./math/index')
 
-console.log(webUrl.arr);
+
+console.log(sum(5,5))
